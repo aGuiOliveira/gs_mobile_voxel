@@ -126,38 +126,8 @@ npm run ios          # abre no simulador iOS (macOS)
 npx tsc --noEmit     # checagem de tipos
 npx expo-doctor      # valida configuração do projeto
 ```
-
 ---
 
-## ✅ Atendimento aos requisitos da avaliação
-
-| Critério | Onde é atendido |
-|---|---|
-| **Interface Mobile (20)** | 8 telas organizadas, navegação por abas + pilha, layout responsivo com tema escuro consistente |
-| **Navegação e Fluxo (20)** | Fluxo completo: cadastrar → simular → receber resposta → confirmar → consultar histórico → ver detalhes |
-| **Manipulação de Dados (15)** | Catálogos em arquivos de dados, cálculo na camada de serviço, persistência em **AsyncStorage**, exibição clara de massa/custo/percentuais |
-| **Recursos Mobile (15)** | **Câmera/Galeria** (`expo-image-picker`) e **Notificações locais** (`expo-notifications`) |
-| **Erros e Validações (10)** | Campos obrigatórios e ranges no formulário, tratamento de permissão negada, falha de carregamento, registro não encontrado e erro de simulação |
-| **Organização (20)** | Separação `screens` / `components` / `services` / `data`, nomes claros, TypeScript, código comentado e este README |
-
----
-
-## 📸 Evidências de execução
-
-Para incluir as evidências exigidas, rode o app com `npx expo start`, percorra o
-fluxo no dispositivo e adicione as capturas em `docs/screenshots/`, por exemplo:
-
-```
-docs/screenshots/
-├── 01-inicio.png
-├── 02-aprender.png
-├── 03-cadastro.png
-├── 04-simulacao.png
-├── 05-resultado.png
-└── 06-historico.png
-```
-
----
 
 ## 📝 Observações
 
