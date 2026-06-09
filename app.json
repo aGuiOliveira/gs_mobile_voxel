@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "VoxelSat",
+    "slug": "voxelsat",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0B1020",
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "O VoxelSat usa a câmera para você anexar uma foto de referência da peça.",
+        "NSPhotoLibraryUsageDescription": "O VoxelSat acessa a galeria para você anexar uma foto de referência da peça."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0B1020",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "O VoxelSat acessa a galeria para você anexar uma foto de referência da peça.",
+          "cameraPermission": "O VoxelSat usa a câmera para você anexar uma foto de referência da peça."
+        }
+      ],
+      "expo-notifications"
+    ]
+  }
+}

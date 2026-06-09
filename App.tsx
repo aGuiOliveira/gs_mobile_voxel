@@ -1,0 +1,18 @@
+import React from 'react';
+import { StatusBar } from 'expo-status-bar';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { AppNavigator } from './src/navigation/AppNavigator';
+
+/**
+ * Ponto de entrada do VoxelSat.
+ * Envolve a navegação no provedor de área segura e define a status bar clara
+ * (tema escuro do app).
+ */
+export default function App() {
+  return (
+    <SafeAreaProvider>
+      <StatusBar style="light" />
+      <AppNavigator />
+    </SafeAreaProvider>
+  );
+}
