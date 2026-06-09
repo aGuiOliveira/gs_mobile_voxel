@@ -1,5 +1,9 @@
 # 🛰️ VoxelSat — Otimização Topológica para Estruturas de Satélites
 
+Guilherme Oliveira Santana de Almeida - 555180
+
+Vinicius Monteiro Araújo - 555088
+
 Aplicativo mobile desenvolvido para a **Global Solution** (tema: **Economia Espacial**).
 O VoxelSat ajuda a entender e a **simular a otimização topológica** de componentes
 estruturais de satélites, mostrando quanta **massa** e quanto **custo de lançamento**
